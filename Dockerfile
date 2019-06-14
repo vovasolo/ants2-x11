@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 ARG ROOTTGZ=root_v6.16.00.Linux-ubuntu18-x86_64-gcc7.3.tar.gz
-ARG JOBS=14
+ARG JOBS=1
 
 # Update all packages
 RUN apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
